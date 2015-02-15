@@ -1,0 +1,14 @@
+[Unit]
+Description=Service for CouchPotato (CPServer)
+#After=apache2.service
+
+[Service]
+Type=notify
+ExecStart=/etc/init.d/couchpotato start
+ExecStop=/etc/init.d/couchpotato stop
+PIDFile=/var/run/couchpotato/couchpotato.pid
+#KillMode=process
+#Restart=always
+
+[Install]
+WantedBy=multi-user.target

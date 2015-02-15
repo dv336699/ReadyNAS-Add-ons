@@ -1,0 +1,13 @@
+<Application resource-id="couchpotato"><!-- 'resource-id' must be AppName -->
+  <Name>Couchpotato</Name><!-- Any desciptive name, upto 48 chars -->
+  <Author>Diego Vieira</Author><!-- Authers name. upto 48 chars -->
+  <Version>2.6.1-1</Version><!-- Version -->
+  <RequireReboot>0</RequireReboot><!-- If non-zero, it indicate reboot is required. -->
+  <ConfigURL/>
+  <LaunchURL>http://localhost:5050/</LaunchURL>
+  <ReservePort>5050</ReservePort>
+  <DebianPackage>couchpotato</DebianPackage>
+  <ServiceName>fvapp-couchpotato.service</ServiceName>
+  <Category>APP_CAT_MEDIA</Category>
+  <Description lang="en-us">Download movies automatically, easily and in the best quality as soon as they are available</Description>
+</Application>

@@ -1,0 +1,3 @@
+CP_USER=admin
+CP_HOME=/apps/couchpotato/CouchPotatoServer
+CP_DATA=/apps/couchpotato-data

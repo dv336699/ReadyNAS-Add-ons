@@ -1,0 +1,13 @@
+Source: couchpotato
+Section: contrib/xxx
+Priority: extra
+Maintainer: Diego Vieira <diego@sv2.com.br>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 2.6.1
+Homepage: https://github.com/diego-vieira/ReadyNAS-Add-ons
+
+Package: couchpotato
+Architecture: all
+Depends: ${misc:Depends}, python(>=2.6), readynasos (>= 6.0.5~T1271)
+Description: Awesome PVR for usenet and torrents.
+ Awesome PVR for usenet and torrents. Just fill in what you want to see and CouchPotato will add it to your "want to watch"-list. Every day it will search through multiple NZBs & Torrents sites, looking for the best possible match. If available, it will download it using your favorite download software.
