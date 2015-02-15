@@ -19,4 +19,4 @@ Upcoming
 For manual install, download the .deb below and upload to your NAS
 
 * [CouchPotato](http://couchpotato.to) - 2/15/2015 [couchpotato_2.6.1-1_all.deb](https://dl.dropboxusercontent.com/u/6460642/ReadyNAS-Add-ons/couchpotato_2.6.1-1_all.deb)
-* [uTorrent](http://utorrent.com) - 2/15/2015 [utorrent_3.3-1_all.deb](https://dl.dropboxusercontent.com/u/6460642/ReadyNAS-Add-ons/utorrent_3.3-1_all.deb)
+* [uTorrent](http://utorrent.com) - 2/15/2015 [utorrent_3.3-1_all.deb](https://dl.dropboxusercontent.com/u/6460642/ReadyNAS-Add-ons/utorrent_3.3-1_all.deb) (x86 only)
