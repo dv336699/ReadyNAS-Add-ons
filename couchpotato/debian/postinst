@@ -25,7 +25,8 @@ case "$1" in
 
     cp $APPDIR/CouchPotatoServer/init/ubuntu /etc/init.d/couchpotato
     chmod +x /etc/init.d/couchpotato
-    [ ! -d /apps/couchpotato-data ] || mkdir /apps/couchpotato-data
+    mkdir -p /apps/couchpotato-data
+    chown -R admin:admin /apps/couchpotato-data
     event_push app readynasd '<add-s resource-type="LocalApp" resource-id="LocalApp"><LocalApp appname="couchpotato" success="1" reboot="1"/></add-s>' 0 0
     ;;
 
