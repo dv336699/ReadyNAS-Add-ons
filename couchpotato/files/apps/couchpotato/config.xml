@@ -1,10 +1,12 @@
 <Application resource-id="couchpotato"><!-- 'resource-id' must be AppName -->
   <Name>Couchpotato</Name><!-- Any desciptive name, upto 48 chars -->
   <Author>Ruud Burger (ReadyNAS Add-ons)</Author><!-- Authers name. upto 48 chars -->
-  <Version>2.6.1-1</Version><!-- Version -->
+  <Version>2.6.1</Version><!-- Version -->
   <RequireReboot>0</RequireReboot><!-- If non-zero, it indicate reboot is required. -->
   <ConfigURL/>
   <LaunchURL>http://localhost:5050/</LaunchURL>
+  <InfoURL>https://couchpota.to/</InfoURL>
+  <ConfigURL>http://localhost:5050/settings/general/</ConfigURL>
   <ReservePort>5050</ReservePort>
   <DebianPackage>couchpotato</DebianPackage>
   <ServiceName>fvapp-couchpotato.service</ServiceName>

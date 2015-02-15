@@ -1,10 +1,11 @@
 <Application resource-id="utorrent"><!-- 'resource-id' must be AppName -->
   <Name>µTorrent</Name><!-- Any desciptive name, upto 48 chars -->
   <Author>BitTorrent, Inc (ReadyNAS Add-ons)</Author><!-- Authers name. upto 48 chars -->
-  <Version>3.3-1</Version><!-- Version -->
+  <Version>3.3</Version><!-- Version -->
   <RequireReboot>0</RequireReboot><!-- If non-zero, it indicate reboot is required. -->
   <ConfigURL/>
   <LaunchURL>http://localhost:8080/gui</LaunchURL>
+  <InfoURL>http://www.utorrent.com/</InfoURL>
   <ReservePort>8080</ReservePort>
   <DebianPackage>utorrent</DebianPackage>
   <ServiceName>fvapp-utorrent.service</ServiceName>
