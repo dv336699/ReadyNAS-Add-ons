@@ -1,0 +1,13 @@
+Source: utorrent
+Section: contrib/xxx
+Priority: extra
+Maintainer: Diego Vieira <diego@sv2.com.br>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.3
+Homepage: https://github.com/diego-vieira/ReadyNAS-Add-ons
+
+Package: utorrent
+Architecture: all
+Depends: ${misc:Depends}, readynasos (>= 6.0.5~T1271)
+Description: Free BitTorrent Client.
+ µTorrent (or uTorrent, commonly abbreviated as "µT" or "uT") is a free, ad-supported, closed source BitTorrent client owned and developed by BitTorrent, Inc.

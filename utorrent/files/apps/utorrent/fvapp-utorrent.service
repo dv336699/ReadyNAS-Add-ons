@@ -1,0 +1,11 @@
+[Unit]
+Description=Service for uTorrent
+
+[Service]
+Type=notify
+ExecStart=/etc/init.d/utorrent start
+ExecStop=/etc/init.d/utorrent stop
+PIDFile=/var/run/utorrent.pid
+
+[Install]
+WantedBy=multi-user.target

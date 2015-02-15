@@ -1,0 +1,13 @@
+<Application resource-id="utorrent"><!-- 'resource-id' must be AppName -->
+  <Name>µTorrent</Name><!-- Any desciptive name, upto 48 chars -->
+  <Author>BitTorrent, Inc (ReadyNAS Add-ons)</Author><!-- Authers name. upto 48 chars -->
+  <Version>3.3-1</Version><!-- Version -->
+  <RequireReboot>0</RequireReboot><!-- If non-zero, it indicate reboot is required. -->
+  <ConfigURL/>
+  <LaunchURL>http://localhost:8080/gui</LaunchURL>
+  <ReservePort>8080</ReservePort>
+  <DebianPackage>utorrent</DebianPackage>
+  <ServiceName>fvapp-utorrent.service</ServiceName>
+  <Category>APP_CAT_OTHER</Category>
+  <Description lang="en-us">µTorrent is a free BitTorrent client.</Description>
+</Application>
