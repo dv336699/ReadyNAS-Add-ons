@@ -1,0 +1,14 @@
+<Application resource-id="phpsysinfo"><!-- 'resource-id' must be AppName -->
+  <Name>phpSysInfo</Name><!-- Any desciptive name, upto 48 chars -->
+  <Author>phpSysInfo (ReadyNAS Add-ons)</Author><!-- Authers name. upto 48 chars -->
+  <Version>3.2.0</Version><!-- Version -->
+  <RequireReboot>0</RequireReboot><!-- If non-zero, it indicate reboot is required. -->
+  <ConfigURL/>
+  <LaunchURL>http://localhost:7124/</LaunchURL>
+  <InfoURL>http://phpsysinfo.github.io/phpsysinfo/</InfoURL>
+  <ReservePort>7124</ReservePort>
+  <DebianPackage>phpsysinfo</DebianPackage>
+  <ServiceName />
+  <Category>APP_CAT_NETWORK_OTHER</Category>
+  <Description lang="en-us">A customizable PHP script that displays information about your system nicely</Description>
+</Application>

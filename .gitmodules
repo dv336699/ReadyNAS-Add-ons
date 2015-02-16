@@ -1,3 +1,6 @@
 [submodule "couchpotato/files/apps/couchpotato/CouchPotatoServer"]
 	path = couchpotato/files/apps/couchpotato/CouchPotatoServer
 	url = https://github.com/RuudBurger/CouchPotatoServer
+[submodule "phpsysinfo/files/apps/phpsysinfo/web"]
+	path = phpsysinfo/files/apps/phpsysinfo/web
+	url = https://github.com/phpsysinfo/phpsysinfo

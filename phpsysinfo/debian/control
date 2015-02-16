@@ -1,0 +1,13 @@
+Source: phpsysinfo
+Section: contrib/xxx
+Priority: extra
+Maintainer: Diego Vieira <diego@sv2.com.br>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.2.0
+Homepage: https://github.com/diego-vieira/ReadyNAS-Add-ons
+
+Package: phpsysinfo
+Architecture: all
+Depends: ${misc:Depends}, readynasos (>= 6.0.5~T1271)
+Description: phpsysinfo
+ A customizable PHP script that displays information about your system nicely
