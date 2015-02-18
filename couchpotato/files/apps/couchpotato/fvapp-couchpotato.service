@@ -1,12 +1,12 @@
 [Unit]
-Description=Service for CouchPotato (CPServer)
+Description=Service for CouchPotato
 #After=apache2.service
 
 [Service]
 Type=forking
 ExecStart=/etc/init.d/couchpotato start
 ExecStop=/etc/init.d/couchpotato stop
-PIDFile=/var/run/couchpotato/couchpotato.pid
+PIDFile=/var/run/couchpotato.pid
 #KillMode=process
 #Restart=always
 

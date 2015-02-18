@@ -8,6 +8,6 @@ Homepage: https://github.com/diego-vieira/ReadyNAS-Add-ons
 
 Package: phpsysinfo
 Architecture: all
-Depends: ${misc:Depends}, readynasos (>= 6.0.5~T1271)
+Depends: ${misc:Depends}, git-core, readynasos (>= 6.0.5~T1271)
 Description: phpsysinfo
  A customizable PHP script that displays information about your system nicely

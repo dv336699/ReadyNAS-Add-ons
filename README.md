@@ -1,5 +1,5 @@
 #### ReadyNAS Add-ons
-This repo will host any community add-ons for ReadyNAS from NETGEAR.
+This repo will host any community add-ons for ReadyNAS OS 6.x from NETGEAR.
 We are not affiliated in anyway with NETGEAR.
 
 This is not a support forum, if you have an issue with your NAS, contact NETGEAR.
@@ -16,7 +16,10 @@ Used Ports: http://apps.readynas.com/pages/?page_id=363
 Upcoming
 
 #### Add-ons
-For manual install, download the .deb below and upload to your NAS
+For manual install, download the .deb from the link below and upload to your NAS
 
-* [CouchPotato](http://couchpotato.to) - 2/15/2015 [couchpotato_2.6.1-1_all.deb](https://dl.dropboxusercontent.com/u/6460642/ReadyNAS-Add-ons/couchpotato_2.6.1-1_all.deb)
-* [uTorrent](http://utorrent.com) - 2/15/2015 [utorrent_3.3-1_all.deb](https://dl.dropboxusercontent.com/u/6460642/ReadyNAS-Add-ons/utorrent_3.3-1_all.deb) (x86 only)
+[.deb compiled add-ons](https://www.dropbox.com/sh/7d227foepyaojqs/AACMsHr-e34wB44RezMjvMkna?dl=0)
+
+* [CouchPotato](http://couchpotato.to)
+* [phpSysInfo](http://phpsysinfo.github.io/phpsysinfo/)
+* [uTorrent](http://utorrent.com) (x86 only)

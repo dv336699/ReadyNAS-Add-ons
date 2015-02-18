@@ -3,9 +3,9 @@
   <Author>phpSysInfo (ReadyNAS Add-ons)</Author><!-- Authers name. upto 48 chars -->
   <Version>3.2.0</Version><!-- Version -->
   <RequireReboot>0</RequireReboot><!-- If non-zero, it indicate reboot is required. -->
-  <ConfigURL/>
   <LaunchURL>http://localhost:7124/</LaunchURL>
   <InfoURL>http://phpsysinfo.github.io/phpsysinfo/</InfoURL>
+  <ConfigURL/>
   <ReservePort>7124</ReservePort>
   <DebianPackage>phpsysinfo</DebianPackage>
   <ServiceName />

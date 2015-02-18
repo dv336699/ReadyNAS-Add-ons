@@ -1,11 +1,14 @@
 [Unit]
 Description=Service for uTorrent
+#After=apache2.service
 
 [Service]
-Type=notify
+Type=forking
 ExecStart=/etc/init.d/utorrent start
 ExecStop=/etc/init.d/utorrent stop
 PIDFile=/var/run/utorrent.pid
+#KillMode=process
+#Restart=always
 
 [Install]
 WantedBy=multi-user.target

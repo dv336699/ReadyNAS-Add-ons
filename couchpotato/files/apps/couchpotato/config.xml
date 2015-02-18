@@ -3,7 +3,6 @@
   <Author>Ruud Burger (ReadyNAS Add-ons)</Author><!-- Authers name. upto 48 chars -->
   <Version>2.6.2</Version><!-- Version -->
   <RequireReboot>0</RequireReboot><!-- If non-zero, it indicate reboot is required. -->
-  <ConfigURL/>
   <LaunchURL>http://localhost:5050/</LaunchURL>
   <InfoURL>https://couchpota.to/</InfoURL>
   <ConfigURL>http://localhost:5050/settings/general/</ConfigURL>

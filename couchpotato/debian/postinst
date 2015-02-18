@@ -22,7 +22,12 @@ case "$1" in
   configure)
     APPDIR=/apps/couchpotato
     chown -R admin:admin $APPDIR
-
+    rm -rf $APPDIR/CouchPotatoServer
+    export HOME="/home"
+    git config --global http.sslverify false
+    git clone https://github.com/RuudBurger/CouchPotatoServer.git $APPDIR/CouchPotatoServer
+    cd $APPDIR/CouchPotatoServer
+    git checkout build/2.6.2
     cp $APPDIR/CouchPotatoServer/init/ubuntu /etc/init.d/couchpotato
     chmod +x /etc/init.d/couchpotato
     mkdir -p /apps/couchpotato-data
