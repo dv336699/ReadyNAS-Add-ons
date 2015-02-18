@@ -3,7 +3,7 @@ Section: contrib/xxx
 Priority: extra
 Maintainer: Diego Vieira <diego@sv2.com.br>
 Build-Depends: debhelper (>= 8.0.0)
-Standards-Version: 2.6.1
+Standards-Version: 2.6.2
 Homepage: https://github.com/diego-vieira/ReadyNAS-Add-ons
 
 Package: couchpotato
