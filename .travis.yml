@@ -1,3 +1,4 @@
+language: c
 before_install:
 - sudo apt-get install -y python git-core schroot
 script:
