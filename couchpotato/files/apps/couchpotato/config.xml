@@ -1,5 +1,5 @@
 <Application resource-id="couchpotato"><!-- 'resource-id' must be AppName -->
-  <Name>Couchpotato</Name><!-- Any desciptive name, upto 48 chars -->
+  <Name>CouchPotato</Name><!-- Any desciptive name, upto 48 chars -->
   <Author>Ruud Burger (ReadyNAS Add-ons)</Author><!-- Authers name. upto 48 chars -->
   <Version>2.6.2</Version><!-- Version -->
   <RequireReboot>0</RequireReboot><!-- If non-zero, it indicate reboot is required. -->

@@ -6,7 +6,7 @@ Description=Service for CouchPotato
 Type=forking
 ExecStart=/etc/init.d/couchpotato start
 ExecStop=/etc/init.d/couchpotato stop
-PIDFile=/var/run/couchpotato.pid
+PIDFile=/var/run/couchpotato/couchpotato.pid
 #KillMode=process
 #Restart=always
 
