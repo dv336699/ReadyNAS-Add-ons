@@ -1,4 +1,4 @@
 before_install:
-- sudo apt-get install -y python git-core
+- sudo apt-get install -y python git-core schroot
 script:
 - sh build.sh
