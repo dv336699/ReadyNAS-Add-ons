@@ -1,0 +1,4 @@
+before_install:
+- sudo apt-get install -y python git-core
+script:
+- sh build.sh
